@@ -1,0 +1,32 @@
+{
+  "name": "fsearch-cli",
+  "version": "0.0.0",
+  "description": "Searches for files via the CLI",
+  "main": "cli.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "bin": {
+    "fsearch": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "author": "Vu Tran <vu@vu-tran.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "eslint-config-xo-space": "^0.14.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "extends": "xo-space",
+    "rules": {
+      "comma-dangle": 0
+    }
+  },
+  "dependencies": {
+    "fsearch": "^0.1.0",
+    "meow": "^3.7.0"
+  }
+}
